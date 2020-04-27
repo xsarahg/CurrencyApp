@@ -10,4 +10,8 @@ The steps for creating this application:
     - PostgreSQL Driver
     - Lombok
     - Spring Boot DevTools
+- Create your model and repository. 
+- Add the correct settings to application.properties. 
+- Use CommandLineRunner in your main application class to insert some demo data. 
+- Run your code and select your table in H2 to see your demo data. 
     
