@@ -1,6 +1,7 @@
 package com.xsarahg.CurrencyApp.model;
 
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 import javax.persistence.Entity;
@@ -9,6 +10,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import java.math.BigDecimal;
 
+@NoArgsConstructor // no default constructor necessary
 @Entity // class presents the structure of a data table
 @Getter // lombok creates getters
 @Setter // lombok creates setters
