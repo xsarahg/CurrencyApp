@@ -25,4 +25,7 @@ The steps for creating this application:
 - Save demo data in CommandLineRunner
 
 ## JWT
-
+- Create a service that creates and validates JWT tokens. 
+- Create a class with user credentials
+- Make filters for login and authentication
+- Finalize the SecurityConfiguration
